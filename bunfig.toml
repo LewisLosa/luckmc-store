@@ -1,0 +1,19 @@
+[install]
+# Install packages from npm registry
+registry = "https://registry.npmjs.org/"
+
+# Automatically install peer dependencies
+auto = true
+
+# Use exact versions (no caret ranges)
+exact = false
+
+# Cache directory
+cache = true
+
+# Production dependencies only
+production = false
+
+[install.scopes]
+# Configure scoped registries if needed
+# "@heroui" = "https://registry.npmjs.org/"
