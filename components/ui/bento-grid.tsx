@@ -55,9 +55,8 @@ export const BentoGridItem = ({
         </div>
       )}
 
-      <div className="absolute inset-0 z-[5] bg-gradient-to-t from-white to-transparent dark:from-black" />
       <GlowingEffect
-        className="absolute inset-[2] rounded-xl z-[7]"
+        className="absolute inset-[2] rounded-xl z-[10]"
         spread={30}
         glow={true}
         borderWidth={3}
@@ -65,6 +64,7 @@ export const BentoGridItem = ({
         proximity={150}
         inactiveZone={0.01}
       />
+      <div className="absolute inset-0 z-[5] bg-gradient-to-t from-white to-transparent dark:from-black" />
 
       <div className="relative z-10">{header}</div>
       <div className="relative z-10 transition duration-200 group-hover/bento:translate-x-2">
