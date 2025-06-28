@@ -2,11 +2,15 @@
   "name": "next-app-template",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "bun@1.0.0",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix",
+    "install": "bun install",
+    "add": "bun add",
+    "remove": "bun remove"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
