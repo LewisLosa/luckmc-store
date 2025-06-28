@@ -109,7 +109,7 @@ export const Navbar = () => {
                   "text-white"
                   }
                 
-                href="#"
+                href={item.href}
                 size="lg"
               >
                 {item.label}
