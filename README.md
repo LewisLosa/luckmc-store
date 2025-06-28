@@ -1,53 +1,27 @@
-# Next.js & HeroUI Template
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
 
-## Technologies Used
+# LuckMC Mağaza
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+Bu proje, Next.js 14 (uygulama dizini) ve HeroUI (v2) kullanarak yapılmış bir önyüzdür.
+Projenin arka yüzü kapalı kaynaktır.
 
-## How to Use
+## Kullanılan Teknolojiler
 
-### Use the template with create-next-app
+  * [Next.js 14](https://nextjs.org/docs/getting-started)
+  * [HeroUI v2](https://heroui.com/)
+  * [Tailwind CSS](https://tailwindcss.com/)
+  * [Tailwind Variants](https://tailwind-variants.org)
+  * [TypeScript](https://www.typescriptlang.org/)
+  * [Framer Motion](https://www.framer.com/motion/)
+  * [next-themes](https://github.com/pacocoursey/next-themes)
 
-To create a new project based on this template using `create-next-app`, run the following command:
+-----
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
+## ⚠️ Dikkat
 
-### Install dependencies
+Bu proje, GNU AGPL-3.0 lisansı altında lisanslanmıştır. Aşağıdaki hususlara dikkat etmeniz gerekir:
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+  * Kodun **yalnızca katkı sağlama amacıyla kullanılması** teşvik edilir.
+  * Bu kodu kullanarak **herhangi bir web sitesi, ürün veya hizmet yayına almak için** önceden [lewislosa@gmail.com](mailto:lewislosa@gmail.com) adresiyle iletişime geçilmesi gereklidir.
+  * Kod üzerinde değişiklik yapıp paylaşmak isteyen kişilerin, bu değişiklikleri **açık kaynak olarak yayınlaması zorunludur.**
