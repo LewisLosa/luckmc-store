@@ -1,15 +1,12 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
 import clsx from "clsx";
-import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 import { Providers } from "./providers";
-import ScrollElement from '@/components/ui/scroll-element';
-
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/footer";
+import { ReactLenis, useLenis } from "lenis/dist/lenis-react";
 
 export const metadata: Metadata = {
   title: {
@@ -43,14 +40,16 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col min-h-screen w-full">
-            <Navbar />
+        <ReactLenis root>
+          <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+            <div className="relative flex flex-col min-h-screen w-full">
+              <Navbar />
 
-            <main className="flex-grow w-full">{children}</main>
-            <Footer/>
-          </div>
-        </Providers>
+              <main className="flex-grow w-full">{children}</main>
+              <Footer />
+            </div>
+          </Providers>
+        </ReactLenis>
       </body>
     </html>
   );
