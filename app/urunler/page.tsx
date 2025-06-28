@@ -14,7 +14,7 @@ export default function PricingPage() {
         </p>
       </header>
       <section>
-        <BentoGrid className="container w-[50rem] lg:grid-rows-3">
+        <BentoGrid className="container min-h-[35rem] lg:grid-rows-3">
           {productConfig.categories.map((category) => (
             <BentoCard key={category.name} {...category} />
           ))}
